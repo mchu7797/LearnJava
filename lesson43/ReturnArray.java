@@ -12,7 +12,7 @@ public class ReturnArray {
     }
 
     public static void main(String[] args) {
-        System.out.println("2020E8534 �߹μ�");
+        System.out.println("2020E8534 추민석");
 
         int intArray[];
         intArray = makeArray();
