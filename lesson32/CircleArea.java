@@ -1,4 +1,4 @@
-package lesson32;
+ï»¿package lesson32;
 
 public class CircleArea {
 
@@ -8,8 +8,8 @@ public class CircleArea {
 		double radius = 10.0;
 		double circleArea = radius * radius * Pi;
 		
-		System.out.println("2020E8534 Ãß¹Î¼®");
-		System.out.println("¿øÀÇ ¸éÀû = " + circleArea);
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
+		System.out.println("ì›ì˜ ë©´ì  = " + circleArea);
 	}
 
 }

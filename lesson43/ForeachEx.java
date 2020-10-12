@@ -1,4 +1,4 @@
-package lesson43;
+﻿package lesson43;
 
 
 public class ForeachEx {

@@ -1,19 +1,19 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class SuccessOrFail {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		System.out.print("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤: ");
 		int score = scanner.nextInt();
 		
 		if (score >= 80) {
-			System.out.println("ÃàÇÏÇÕ´Ï´Ù! ÇÕ°ÝÀÔ´Ï´Ù.");
+			System.out.println("ì¶•í•˜í•©ë‹ˆë‹¤! í•©ê²©ìž…ë‹ˆë‹¤.");
 		}
 		scanner.close();
 	}

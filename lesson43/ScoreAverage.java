@@ -1,20 +1,20 @@
-package lesson43;
+﻿package lesson43;
 
 public class ScoreAverage {
     public static void main(String[] args) {
         System.out.println("2020E8534 추민석");
 
         double[][] score = {
-                {3.3, 3.4}, // 1학년 1, 2학기 평점
-                {3.5, 3.6}, // 2학년 1, 2학기 평점
-                {3.7, 4.0}, // 3학년 1, 2학기 평점
-                {4.1, 4.2}  // 4학년 1, 2학기 평점
+                {3.3, 3.4}, 
+                {3.5, 3.6}, 
+                {3.7, 4.0}, 
+                {4.1, 4.2}  
         };
         double sum = 0;
 
         for (int year = 0; year < score.length; year++) {
             for (int term = 0; term < score[year].length; term++) {
-                sum += score[year][term]; // 모든 평점의 합
+                sum += score[year][term];
             }
         }
 

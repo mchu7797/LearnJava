@@ -1,16 +1,16 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class GradingSwitch {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		
 		char grade;
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100): ");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš”(0~100): ");
 		int score = scanner.nextInt();
 		
 		switch (score / 10) {
@@ -31,7 +31,7 @@ public class GradingSwitch {
 			grade = 'F';
 		}
 		
-		System.out.println("±ÍÇÏÀÇ Á¡¼ö´Â " + grade + "ÀÔ´Ï´Ù.");
+		System.out.println("ê·€í•˜ì˜ ì ìˆ˜ëŠ” " + grade + "ì…ë‹ˆë‹¤.");
 		scanner.close();
 	}
 }

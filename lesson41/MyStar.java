@@ -1,102 +1,102 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class MyStar {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		int month = 0, day = 0;
-		System.out.print("ÅÂ¾î³ª½Å ´ŞÀ» ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		System.out.print("íƒœì–´ë‚˜ì‹  ë‹¬ì„ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		month = scanner.nextInt();
-		System.out.print("ÅÂ¾î³­ ÀÏÀ» ÀÔ·ÂÇØ ÁÖ¼¼¿ä : ");
+		System.out.print("íƒœì–´ë‚œ ì¼ì„ ì…ë ¥í•´ ì£¼ì„¸ìš” : ");
 		day = scanner.nextInt();
 		
 		switch (month) {
 		case 1:
 			if (day >= 20) {
-				System.out.println("¹°º´ÀÚ¸®");
+				System.out.println("ë¬¼ë³‘ìë¦¬");
 			} else {
-				System.out.println("¿°¼ÒÀÚ¸®");
+				System.out.println("ì—¼ì†Œìë¦¬");
 			}
 			break;
 		case 2:
 			if (day >= 19) {
-				System.out.println("¹°°í±âÀÚ¸®");
+				System.out.println("ë¬¼ê³ ê¸°ìë¦¬");
 			} else {
-				System.out.println("¹°º´ÀÚ¸®");
+				System.out.println("ë¬¼ë³‘ìë¦¬");
 			}
 			break;
 		case 3:
 			if (day >= 21) {
-				System.out.println("¾çÀÚ¸®");
+				System.out.println("ì–‘ìë¦¬");
 			} else {
-				System.out.println("¹°°í±âÀÚ¸®");
+				System.out.println("ë¬¼ê³ ê¸°ìë¦¬");
 			}
 			break;
 		case 4:
 			if (day >= 20) {
-				System.out.println("È²¼ÒÀÚ¸®");
+				System.out.println("í™©ì†Œìë¦¬");
 			} else {
-				System.out.println("¾çÀÚ¸®");
+				System.out.println("ì–‘ìë¦¬");
 			}
 			break;
 		case 5:
 			if (day >= 21) {
-				System.out.println("½ÖµÕÀÌÀÚ¸®");
+				System.out.println("ìŒë‘¥ì´ìë¦¬");
 			} else {
-				System.out.println("È²¼ÒÀÚ¸®");
+				System.out.println("í™©ì†Œìë¦¬");
 			}
 			break;
 		case 6:
 			if (day >= 22) {
-				System.out.println("°ÔÀÚ¸®");
+				System.out.println("ê²Œìë¦¬");
 			} else {
-				System.out.println("½ÖµÕÀÌÀÚ¸®");
+				System.out.println("ìŒë‘¥ì´ìë¦¬");
 			}
 			break;
 		case 7:
 			if (day >= 23) {
-				System.out.println("»çÀÚÀÚ¸®");
+				System.out.println("ì‚¬ììë¦¬");
 			} else {
-				System.out.println("°ÔÀÚ¸®");
+				System.out.println("ê²Œìë¦¬");
 			}
 			break;
 		case 8:
 			if (day >= 23) {
-				System.out.println("Ã³³àÀÚ¸®");
+				System.out.println("ì²˜ë…€ìë¦¬");
 			} else {
-				System.out.println("»çÀÚÀÚ¸®");
+				System.out.println("ì‚¬ììë¦¬");
 			}
 			break;
 		case 9:
 			if (day >= 24) {
-				System.out.println("ÃµÄªÀÚ¸®");
+				System.out.println("ì²œì¹­ìë¦¬");
 			} else {
-				System.out.println("Ã³³àÀÚ¸®");
+				System.out.println("ì²˜ë…€ìë¦¬");
 			}
 			break;
 		case 10:
 			if (day >= 23) {
-				System.out.println("Àü°¥ÀÚ¸®");
+				System.out.println("ì „ê°ˆìë¦¬");
 			} else {
-				System.out.println("ÃµÄªÀÚ¸®");
+				System.out.println("ì²œì¹­ìë¦¬");
 			}
 			break;
 		case 11:
 			if (day >= 23) {
-				System.out.println("»ç¼öÀÚ¸®");
+				System.out.println("ì‚¬ìˆ˜ìë¦¬");
 			} else {
-				System.out.println("Àü°¥ÀÚ¸®");
+				System.out.println("ì „ê°ˆìë¦¬");
 			}
 			break;
 		case 12:
 			if (day >= 25) {
-				System.out.println("¿°¼ÒÀÚ¸®");
+				System.out.println("ì—¼ì†Œìë¦¬");
 			} else {
-				System.out.println("»ç¼öÀÚ¸®");
+				System.out.println("ì‚¬ìˆ˜ìë¦¬");
 			}
 		}
 		

@@ -1,15 +1,15 @@
-package lesson42;
+ï»¿package lesson42;
 
 import java.util.Scanner;
 
 public class ContinueExample {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("Á¤¼ö¸¦ 5°³ ÀÔ·ÂÇÏ¼¼¿ä.");
+		System.out.println("ì •ìˆ˜ë¥¼ 5ê°œ ì…ë ¥í•˜ì„¸ìš”.");
 		int sum = 0;
 		
 		for (int i = 0; i < 5; i++) {
@@ -21,7 +21,7 @@ public class ContinueExample {
 				sum += n;
 			}
 		}
-		System.out.println("¾ç¼öÀÇ ÇÕÀº " + sum);
+		System.out.println("ì–‘ìˆ˜ì˜ í•©ì€ " + sum);
 		
 		scanner.close();
 	}

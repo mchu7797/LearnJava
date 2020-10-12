@@ -1,33 +1,33 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class CoffeePrice {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("¹«½¼ Ä¿ÇÇ µå¸±±î¿ä? ");
+		System.out.print("ë¬´ìŠ¨ ì»¤í”¼ ë“œë¦´ê¹Œìš”? ");
 		String order = scanner.next();
 		int price = 0;
 		
 		switch (order) {
-		case "¿¡½ºÇÁ·¹¼Ò":
-		case "Ä«ÇªÄ¡³ë":
-		case "Ä«Æä¶ó¶¼":
+		case "ì—ìŠ¤í”„ë ˆì†Œ":
+		case "ì¹´í‘¸ì¹˜ë…¸":
+		case "ì¹´í˜ë¼ë–¼":
 			price = 3500;
 			break;
-		case "¾Æ¸Ş¸®Ä«³ë":
+		case "ì•„ë©”ë¦¬ì¹´ë…¸":
 			price = 2000;
 			break;
 		default:
-			System.out.println("¸Ş´º¿¡ ¾ø½À´Ï´Ù!");
+			System.out.println("ë©”ë‰´ì— ì—†ìŠµë‹ˆë‹¤!");
 		}
 		
 		if (price != 0) {
-			System.out.println(order + "´Â " + price + "¿øÀÔ´Ï´Ù");
+			System.out.println(order + "ëŠ” " + price + "ì›ì…ë‹ˆë‹¤");
 		}
 		
 		scanner.close();

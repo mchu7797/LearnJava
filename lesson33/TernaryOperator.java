@@ -1,13 +1,13 @@
-package lesson33;
+ï»¿package lesson33;
 
 public class TernaryOperator {
 
 	public static void main(String[] args) {
 		int a = 3, b = 5;
 		
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
-		System.out.println("µÎ ¼öÀÇ Â÷´Â " + ((a > b) ? (a - b):(b - a)));
+		System.out.println("ë‘ ìˆ˜ì˜ ì°¨ëŠ” " + ((a > b) ? (a - b):(b - a)));
 	}
 
 }

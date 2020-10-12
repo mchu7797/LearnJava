@@ -1,4 +1,4 @@
-package lesson32;
+﻿package lesson32;
 
 public class TypeConversion {
 
@@ -6,7 +6,7 @@ public class TypeConversion {
 		byte b = 127;
 		int i = 100;
 		
-		System.out.println("2020E8534 �߹μ�");
+		System.out.println("2020E8534 추민석");
 		System.out.println(b + i);
 		System.out.println(10 / 4);
 		System.out.println(10.0 / 4);

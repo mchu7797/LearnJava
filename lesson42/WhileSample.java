@@ -1,15 +1,15 @@
-package lesson42;
+ï»¿package lesson42;
 
 import java.util.Scanner;
 
 public class WhileSample {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		int count = 0, sum = 0, n;
 		Scanner scanner = new Scanner(System.in);
-		System.out.println("Á¤¼ö¸¦ ÀÔ·ÂÇÏ°í ¸¶Áö¸·¿¡ -1À» Àû¾î ÁÖ¼¼¿ä.");
+		System.out.println("ì •ìˆ˜ë¥¼ ì…ë ¥í•˜ê³  ë§ˆì§€ë§‰ì— -1ì„ ì ì–´ ì£¼ì„¸ìš”.");
 		
 		n = scanner.nextInt();
 		
@@ -20,10 +20,10 @@ public class WhileSample {
 		}
 		
 		if (count == 0) {
-			System.out.println("ÀÔ·ÂµÈ ¼ö°¡ ¾ø½À´Ï´Ù.");
+			System.out.println("ì…ë ¥ëœ ìˆ˜ê°€ ì—†ìŠµë‹ˆë‹¤.");
 		} else {
-			System.out.println("Æò±ÕÀÇ °¹¼ö´Â " + count + "°³ÀÌ¸ç");
-			System.out.println("Æò±ÕÀº " + (double)sum / count + "ÀÔ´Ï´Ù");
+			System.out.println("í‰ê· ì˜ ê°¯ìˆ˜ëŠ” " + count + "ê°œì´ë©°");
+			System.out.println("í‰ê· ì€ " + (double)sum / count + "ì…ë‹ˆë‹¤");
 		}
 		
 		scanner.close();

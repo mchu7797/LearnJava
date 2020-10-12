@@ -1,15 +1,15 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class Grading {
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		char grade;
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä (0~100):");
+		System.out.print("ì ìˆ˜ë¥¼ ì…ë ¥í•˜ì„¸ìš” (0~100):");
 		int score = scanner.nextInt();
 		if (score >= 90) {
 			grade = 'A';
@@ -23,7 +23,7 @@ public class Grading {
 			grade = 'F';
 		}
 		
-		System.out.println("ÇĞÁ¡Àº " + grade + "ÀÔ´Ï´Ù.");
+		System.out.println("í•™ì ì€ " + grade + "ì…ë‹ˆë‹¤.");
 		scanner.close();
 	}
 }

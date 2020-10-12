@@ -1,8 +1,8 @@
-package lesson43;
+﻿package lesson43;
 
 public class IrregularArray {
     public static void main(String[] args) {
-        System.out.println("2020E8534 �߹μ�");
+        System.out.println("2020E8534 추민석");
 
         int[][] intArray = new int[4][];
         intArray[0] = new int[3];

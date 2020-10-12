@@ -1,4 +1,4 @@
-package lesson33;
+ï»¿package lesson33;
 
 import java.util.Scanner;
 
@@ -7,17 +7,17 @@ public class ArithmeticOperator {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("2020E8534 Ãß¹Î¼®");
-		System.out.print("Á¤¼ö ÀÔ·Â : ");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
+		System.out.print("ì •ìˆ˜ ì…ë ¥ : ");
 		int time = scanner.nextInt();
 		int second = time % 60;
 		int minute = (time / 60) % 60;
 		int hour = (time / 60) / 60;
 		
-		System.out.print(time + "ÃÊ´Â ");
-		System.out.print(hour + "½Ã°£, ");
-		System.out.print(minute + "ºĞ, ");
-		System.out.print(second + "ÃÊÀÔ´Ï´Ù. ");
+		System.out.print(time + "ì´ˆëŠ” ");
+		System.out.print(hour + "ì‹œê°„, ");
+		System.out.print(minute + "ë¶„, ");
+		System.out.print(second + "ì´ˆì…ë‹ˆë‹¤. ");
 		
 		scanner.close();
 	}

@@ -1,4 +1,4 @@
-package lesson32;
+ï»¿package lesson32;
 
 import java.util.Scanner;
 
@@ -7,23 +7,23 @@ public class ScannerExample {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.println("2020E8534 Ãß¹Î¼®");
-		System.out.println("ÀÌ¸§, µµ½Ã, ³ªÀÌ, Ã¼Áß, µ¶½Å ¿©ºÎ¸¦ ºóÄ­À¸·Î ºĞ¸®ÇÏ¿© ÀÔ·ÂÇÏ¼¼¿ä");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
+		System.out.println("ì´ë¦„, ë„ì‹œ, ë‚˜ì´, ì²´ì¤‘, ë…ì‹  ì—¬ë¶€ë¥¼ ë¹ˆì¹¸ìœ¼ë¡œ ë¶„ë¦¬í•˜ì—¬ ì…ë ¥í•˜ì„¸ìš”");
 		
 		String name = scanner.next();
-		System.out.print("ÀÌ¸§Àº " + name + ", ");
+		System.out.print("ì´ë¦„ì€ " + name + ", ");
 		
 		String city = scanner.next();
-		System.out.print("µµ½Ã´Â " + city + ", ");
+		System.out.print("ë„ì‹œëŠ” " + city + ", ");
 		
 		int age = scanner.nextInt();
-		System.out.print("³ªÀÌ´Â " + age + "»ì, ");
+		System.out.print("ë‚˜ì´ëŠ” " + age + "ì‚´, ");
 		
 		double weight = scanner.nextDouble();
-		System.out.print("¸ö¹«°Ô´Â " + weight + "kg, ");
+		System.out.print("ëª¸ë¬´ê²ŒëŠ” " + weight + "kg, ");
 		
 		boolean single = scanner.nextBoolean();
-		System.out.println("µ¶½Å ¿©ºÎ´Â" + single + "ÀÔ´Ï´Ù. ");
+		System.out.println("ë…ì‹  ì—¬ë¶€ëŠ”" + single + "ì…ë‹ˆë‹¤. ");
 		
 		scanner.close();
 	}

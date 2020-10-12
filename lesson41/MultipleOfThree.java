@@ -1,22 +1,22 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class MultipleOfThree {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner in = new Scanner(System.in);
 		
-		System.out.print("¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À: ");
+		System.out.print("ìˆ˜ë¥¼ ì…ë ¥í•˜ì‹œì˜¤: ");
 		int number = in.nextInt();
 		
 		if ((number % 3) == 0) {
-			System.out.println("3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+			System.out.println("3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
 		}
 		else {
-			System.out.println("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+			System.out.println("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
 		}
 		
 		in.close();

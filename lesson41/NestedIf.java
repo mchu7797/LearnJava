@@ -1,31 +1,31 @@
-package lesson41;
+ï»¿package lesson41;
 
 import java.util.Scanner;
 
 public class NestedIf {
 
 	public static void main(String[] args) {
-		System.out.println("2020E8534 Ãß¹Î¼®");
+		System.out.println("2020E8534 ì¶”ë¯¼ì„");
 		
 		Scanner scanner = new Scanner(System.in);
 		
-		System.out.print("Á¡¼ö¸¦ ÀÔ·ÂÇÏ¼¼¿ä(0~100): ");
+		System.out.print("ì ìˆ˜ë¥¼ ìž…ë ¥í•˜ì„¸ìš”(0~100): ");
 		int score = scanner.nextInt();
 		
-		System.out.print("ÇÐ³âÀ» ÀÔ·ÂÇÏ¼¼¿ä(1~4): ");
+		System.out.print("í•™ë…„ì„ ìž…ë ¥í•˜ì„¸ìš”(1~4): ");
 		int grade = scanner.nextInt();
 		
 		if (score >= 60) {
-			// 60Á¡ ÀÌ»ó
+			// 60ì  ì´ìƒ
 			if (grade != 4) {
-				System.out.println("ÇÕ°Ý!");
+				System.out.println("í•©ê²©!");
 			} else if(score >= 70) {
-				System.out.println("ÇÕ°Ý!");
+				System.out.println("í•©ê²©!");
 			} else {
-				System.out.println("ºÒÇÕ°Ý!");
+				System.out.println("ë¶ˆí•©ê²©!");
 			}
 		} else {
-			System.out.println("ºÒÇÕ°Ý!");
+			System.out.println("ë¶ˆí•©ê²©!");
 		}
 		
 		scanner.close();
