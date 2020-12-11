@@ -1,4 +1,4 @@
-﻿package lesson33;
+package lesson33;
 
 public class TernaryOperator {
 

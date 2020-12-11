@@ -1,4 +1,4 @@
-﻿package lesson6;
+package lesson6;
 
 class Calc {
 	public static int abs(int a) { return a > 0 ? a : -a; }

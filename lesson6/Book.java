@@ -1,4 +1,4 @@
-﻿package lesson6;
+package lesson6;
 
 public class Book {
 	String title;

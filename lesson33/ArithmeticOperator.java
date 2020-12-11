@@ -1,4 +1,4 @@
-﻿package lesson33;
+package lesson33;
 
 import java.util.Scanner;
 

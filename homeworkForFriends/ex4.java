@@ -1,4 +1,4 @@
-﻿package homeworkForFriends;
+package homeworkForFriends;
 
 import java.util.Scanner;
 

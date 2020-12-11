@@ -1,4 +1,4 @@
-﻿package lesson42;
+package lesson42;
 
 public class NestedLoop {
 
